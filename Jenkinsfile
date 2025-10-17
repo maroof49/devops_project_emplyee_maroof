@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/maroof49/employee-api-devops.git'
+                git 'https://github.com/maroof49/devops_project_emplyee_maroof.git'
             }
         }
 
